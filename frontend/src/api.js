@@ -2,7 +2,7 @@ import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
 const apiUrl =
-  import.meta.env.VITE_API_URL || "/choreo-apis/djangopractices/backend/v1";
+  import.meta.env.VITE_API_URL || "/choreo-apis/djangopractices/backend/v1/api";
 const api = axios.create({
   baseURL: apiUrl,
   headers: {
