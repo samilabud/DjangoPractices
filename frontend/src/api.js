@@ -1,8 +1,10 @@
 import axios from "axios";
 import { ACCESS_TOKEN } from "./constants";
 
+const apiUrl =
+  import.meta.env.VITE_API_URL || "http://backend-2634705220:8000/api";
 const api = axios.create({
-  baseURL: import.meta.env.VITE_API_URL,
+  baseURL: apiUrl,
   headers: {
     "Content-Type": "application/json",
   },
