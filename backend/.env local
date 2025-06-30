@@ -1,0 +1,6 @@
+DB_NAME=django_db
+DB_USER=django_user
+DB_PWD=supersecret
+DB_HOST=localhost
+DB_PORT=5432
+DJANGO_SECRET_KEY=django-insecure-r!q=kqq&o7b0h!#54^g%jf7+m$3$!n5i5jwgs4cs*%(%tffof6
